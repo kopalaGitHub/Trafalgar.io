@@ -1,0 +1,156 @@
+@media screen and (max-width: 1350px) {
+  .wrapper {
+    margin: 0 50px;
+  }
+  .imges {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .imges {
+    width: 500px;
+  }
+  .homePage_mainBox-title {
+    font-size: 40px;
+  }
+  .homePage_mainBox-content {
+    font-size: 16px;
+  }
+  .homePage_mainBox {
+    max-width: 360px;
+  }
+  .cardWrapper {
+    grid-template-columns: repeat(2, 340px);
+    grid-template-rows: 355px 355px;
+  }
+  .aboutSection_wrapper {
+    justify-content: space-between;
+  }
+  .aboutSection_wrapper-title {
+    font-size: 28px;
+  }
+  .aboutSection_wrapper-contentSide {
+    max-width: 340px;
+  }
+  .costumerSection {
+    padding: 64px 0;
+  }
+  .costumerSection_contentWrapper {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+  }
+  .costumerSection_contentWrapper-imgBox {
+    margin-bottom: 20px;
+  }
+  .costumerSection_contentWrapper-content {
+    max-width: 530px;
+    text-align: center;
+  }
+
+  .costumerImg {
+    width: 150px !important;
+    height: 150px !important;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .homePage_main {
+    margin-top: 80px;
+  }
+  .imges {
+    display: none;
+  }
+  .homePage_main {
+    justify-content: center;
+  }
+  .homePage_mainBox {
+    text-align: center;
+    max-width: 605px;
+  }
+  .homePage_mainBox-title {
+    font-size: 70px;
+    line-height: 75px;
+  }
+  .homePage_mainBox-content {
+    font-size: 27px;
+  }
+  .homePage_mainBottom {
+    margin-top: 120px;
+  }
+  .aboutSection_wrapper-contentSide {
+    max-width: 600px;
+  }
+  .aboutSection {
+    text-align: center;
+    align-items: center;
+    gap: 100px;
+  }
+  .aboutSection_wrapper-title {
+    font-size: 40px;
+  }
+  .aboutSection_wrapper-content {
+    font-size: 22px;
+  }
+  .line {
+    margin: auto;
+  }
+  .costumerSection {
+    margin-top: 120px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .homePage_mainBox {
+    max-width: 455px;
+  }
+  .homePage_mainBox-title {
+    font-size: 45px;
+    margin-bottom: 12px;
+  }
+  .homePage_mainBox-content {
+    font-size: 20px;
+  }
+  .homePage_mainBox-button {
+    font-size: 16px;
+  }
+  .homePage_mainBottom {
+    margin-top: 85px;
+  }
+  .homePage_mainBottom-title {
+    font-size: 30px;
+  }
+  .homePage_mainBottom-content {
+    font-size: 15px;
+  }
+  .cardWrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 355px 355px 355px;
+  }
+  .aboutSection_wrapper-title {
+    font-size: 35px;
+  }
+  .aboutSection_wrapper-content {
+    font-size: 18px;
+  }
+  .costumerSection_header {
+    font-size: 30px;
+  }
+  .costumerSection_contentWrapper {
+    margin-top: 30px;
+  }
+  .costumerImg {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .costumerInfo {
+    line-height: 30px !important;
+  }
+  .costumerInfo-name {
+    font-size: 20px;
+  }
+  .costumerInfo-job {
+    font-size: 16px;
+  }
+  .costumerSection_contentWrapper {
+    font-size: 16px !important;
+  }
+}
