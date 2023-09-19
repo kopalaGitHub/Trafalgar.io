@@ -103,7 +103,7 @@
     max-width: 455px;
   }
   .homePage_mainBox-title {
-    font-size: 45px;
+    font-size: 38px;
     margin-bottom: 12px;
   }
   .homePage_mainBox-content {
@@ -152,5 +152,140 @@
   }
   .costumerSection_contentWrapper {
     font-size: 16px !important;
+  }
+  .cardWrapper-backgroundImg {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .menu-button-container {
+    display: flex;
+  }
+  .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 130px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  #menu-toggle:checked ~ .menu li {
+    height: 5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+
+    background: rgb(69, 143, 246);
+    background: linear-gradient(
+      90deg,
+      rgba(69, 143, 246, 1) 24%,
+      rgba(109, 196, 242, 1) 84%,
+      rgba(111, 196, 244, 1) 100%
+    );
+  }
+  .header_nav-list {
+    color: white;
+  }
+  .menu > li:not(:last-child) {
+    border-bottom: 1px solid #444;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .wrapper {
+    margin: 0 10px;
+  }
+  .top-nav {
+    margin-top: 25px;
+  }
+  .homePage_main {
+    margin-top: 30px;
+  }
+  .homePage_mainBox {
+    max-width: 330px;
+  }
+  .homePage_mainBox-title {
+    font-size: 30px;
+    margin-bottom: 12px;
+    line-height: 50px;
+  }
+  .homePage_mainBox-content {
+    font-size: 14px;
+    margin: 0 0 50px;
+  }
+  .homePage_mainBox-button {
+    font-size: 14px;
+    line-height: 50px;
+  }
+  .homePage_mainBottom {
+    margin-top: 45px;
+    gap: 15px;
+  }
+  .homePage_mainBottom-title {
+    font-size: 25px;
+  }
+  .homePage_mainBottom-content {
+    font-size: 13px;
+  }
+  .cardWrapper {
+    margin-top: 45px;
+  }
+  .aboutSection {
+    gap: 70px;
+  }
+  .aboutSection_wrapper-title {
+    font-size: 25px;
+  }
+  .aboutSection_wrapper-content {
+    font-size: 14px;
+    margin: 25px 0 35px;
+  }
+  .costumerSection {
+    padding: 15px;
+  }
+  .costumerSection_header {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .costumerSection_contentWrapper {
+    margin-top: 15px;
+  }
+  .costumerImg {
+    width: 70px !important;
+    height: 70px !important;
+  }
+  .costumerInfo {
+    line-height: 25px !important;
+  }
+  .costumerInfo-name {
+    font-size: 18px;
+  }
+  .costumerInfo-job {
+    font-size: 14px;
+  }
+  .costumerSection_contentWrapper-imgBox {
+    gap: 15px;
+  }
+  .costumerSection_contentWrapper {
+    font-size: 16px !important;
+  }
+  .costumerSection_contentWrapper-content {
+    font-size: 13px;
   }
 }
